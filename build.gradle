@@ -35,7 +35,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-devtools")
     // end::actuator[]
-    testCompile("junit:junit")
+    testCompile 'io.rest-assured:rest-assured:3.0.5'
+    testCompile("junit:junit")   
 }
 
 test {
